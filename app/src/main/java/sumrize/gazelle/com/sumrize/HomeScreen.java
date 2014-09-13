@@ -24,7 +24,9 @@ public class HomeScreen extends ActionBarActivity
 
     /**
      * Fragment managing the behaviors, interactions and presentation of the navigation drawer.
+     *
      */
+    //Test
     private NavigationDrawerFragment mNavigationDrawerFragment;
 
     /**
