@@ -19,12 +19,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/url_text"
             android:layout_gravity="center_horizontal|top"
-            android:editable="false"
+            android:editable="true"
             style="@style/AppTheme"
             android:height="60dp"
             android:hint="@string/Enter_URL_text"
             android:focusable="true"
-            android:textColor="#fffef9ff"
             android:layout_marginTop="@dimen/top_margin"
             android:inputType="textUri" />
 
@@ -55,11 +54,15 @@
             android:layout_gravity="center_horizontal|top"
             android:layout_marginTop="@dimen/Summarize_Btn_Margin"
             android:textColor="#ffffffff"
-            android:padding="10dp"
-            android:background="@drawable/sumrize_bg"
-            android:paddingLeft="10dp"
+            android:background="#ff390702"
+            android:paddingLeft="10sp"
+            android:paddingRight="10sp"
             android:shadowColor="#ffff770f"
-            android:textSize="30dp" />
+            android:textSize="30sp"
+            android:clickable="true"
+            style="@style/Widget.AppCompat.ActionButton"
+            android:ellipsize="none"
+            android:focusable="true" />
 
         <Space
             android:layout_width="fill_parent"
